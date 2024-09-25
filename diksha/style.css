@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: rgb(80, 71, 71);
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .body {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+  }
+  
+  /* descendent selector in css */
+  
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  #zerodha_logo {
+    width: 135px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 180px; 
+    margin-right: 200px;
+  }
+  
+  #landing_img {
+    height: 45vh;
+    width: 60%;
+  }
+  
+  #one {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+  }
+  
+  button {
+    background-color: rgb(56, 126, 209);
+    color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 25px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight:bolder;
+    font-size: large;
+  }
+  
+  button:hover{
+      background-color: black;
+      cursor: pointer;
+  }
+  
+  #three{
+  
+      display: grid;
+      place-items: center;
+  
+  }
+  
+  .svg{
+      width: 150px;
+      height: 80px;
+      
+  }
+  
+  #four #a{
+      width: 40%;
+  }
+  
+  #four ,#four #b, #four #b div{
+  
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      
+  }
+  
+  #varsity{
+      width: 32%;
+      height: 310px;
+      margin-left: 80px;
+      margin-right: 120px;
+  }
+  
+  #five{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  #six{
+      display: grid;
+      place-items: center;
+  }
+  .header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 2px 1px 2px #eee;
+    
+   
+   
+  }
+  .nav-items{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    margin: 0;
+    text-align: left;
+  }
+  .nav-items a{
+    color: gray;
+  }
+ 
+#press_logo {
+  float: right;
+  margin-left:90px;
+  margin-right:120px;
+  width: 47%;
+  height: 650px;
+
+}
+
+.p2 {
+  font-size: 12px;
+}
+
+#heading {
+  text-align: left;
+  display: grid;
+  justify-items: start;
+  font-size: 35px;
+  font-weight: 500;
+}
+.para4 {
+  padding-left: 500px;
+  color: lightskyblue;
+  cursor: pointer;
+}
+
+.para5 {
+  padding-left: 500px;
+}
+
+.para4:hover {
+  color: black;
+}
+
+#press {
+  display: grid;
+  place-items: center;
+  margin-left: 300px;
+}
+
+
+#image {
+  width: 160px;
+  align-items: start;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .para20{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer {
+    background-color: rgb(251, 251, 251);
+    padding: 40px 0;
+   
+  }
+  
+  footer {
+    clear: both;
+    /* Clears floats if any */
+    display: block;
+    /* Ensures it's treated as a block element */
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+    color:rgb(107, 107, 107);
+    font-weight: 100;
+  }
+  .footer-col p{
+    font-size: 13px;
+    line-height: 2;
+    color:rgb(107, 107, 107);
+    font-weight: 100;
+    
+  }
+  .footer-col1{
+    margin-left: 110px;
+    margin-right: 120px;
+  }
+  
+  .footer-col1 p {
+    font-size: 11px;
+    line-height: 1.5;
+    color:rgb(172, 172, 172);
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    color: rgb(64, 63, 63);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    line-height: 1;
+    font-weight:3;
+    position: relative;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+    color: rgb(97, 96, 96);
+    font-weight:20px;
+    font-size: 16px;
+  }
+  
+  .footer ul li:hover {
+    color: lightblue;
+    cursor: pointer;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color: grey;
+  }
+  
+  .social-links a:hover {
+    color: aqua;
+  }
+  
+  .footer-col1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 1.5;
+    font-weight: 50;
+    
+  }
+  
+  .footer_part {
+    padding-left: 180px;
+    padding-right: 100px;
+    margin-right: 20px;
+    margin-left: 120px;
+    
+  }
+  .footer_part a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+   
+  }
+  
+  #link {
+    color: grey;
+    margin-right: 20px;
+    justify-content: center;
+  }
+  
+  #link:hover {
+    color: blue;
+  }
+ 
+  .tablename  td{
+    font-size: 10px;
+    
+
+  }
+ 
+  .section2{
+    margin-left: 68px;
+    margin-right:85px;
+    line-height: 1.5;
+  }
+  .section2 h3{
+    font-size: 20px;
+    font-weight:4%;
+    color: rgb(77, 77, 77);
+  }
+  
+  
+  #one h4{
+    font-size: 45px;
+    font-weight:normal;
+  }
+  .anchor a{
+    
+    text-decoration: none;
+    float: right;
+    padding: 0px 50px 50px 50px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+
+    
+  }
+  
+  #five a{
+    text-decoration: none;
+  }
+  .paragraph p{
+    line-height: 3;
+   
+    font-size: 15px;
+    
+  }
+  #five,#p{
+    line-height: 2;
+  }
+ 
+  .tablename{
+    position: relative;
+    top: 90px;
+    margin-right: 50px;
+  }
+  .paragraph h1{
+    font-size: 30px;
+    line-height: 2;
+  }
+  .paragraph{
+    margin-left: 70px;
+  }
+  #one, #p{
+    font-size: 20px;
+  }
+  
+ 
+ 
+  
+  
+  
